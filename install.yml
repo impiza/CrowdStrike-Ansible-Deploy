@@ -1,0 +1,8 @@
+---
+ - name: Ansible apt installer
+   hosts: nodes
+   become: true
+   tasks:
+    - name: Ansible install cs deb file from local
+      apt:
+        deb: /tmp/falcon-sensor_7.10.0-16303_amd64.deb
