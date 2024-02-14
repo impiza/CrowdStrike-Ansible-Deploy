@@ -5,7 +5,6 @@ Please find the files inside /etc/ansible
 /etc/ansible/
 ├── activate.yml
 ├── ansible.cfg
-├── config.json
 ├── copy.yml
 ├── csstatus.yml
 ├── hosts
