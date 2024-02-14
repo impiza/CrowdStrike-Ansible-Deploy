@@ -1,0 +1,10 @@
+---
+- hosts: nodes
+  tasks:
+  - name: Check if cs process is running
+    ansible.builtin.shell: sudo ps -e | grep falcon-sensor
+    register: process_status
+    failed_when: process_status.rc != 0
+  - name: Display cs process status
+    ansible.builtin.debug:
+     var: process_status.stdout_lines
