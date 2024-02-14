@@ -1,0 +1,11 @@
+---
+- name: Ansible copy
+  hosts: nodes
+  tasks:
+  - name: Copy files from control node to remote node
+    copy:
+       src: /tmp/falcon-sensor_7.10.0-16303_amd64.deb
+       dest: /tmp/falcon-sensor_7.10.0-16303_amd64.deb
+       owner: root
+       group: root
+       mode: 0644
