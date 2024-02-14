@@ -1,0 +1,7 @@
+---
+# Check cs status
+
+- hosts: nodes
+  tasks:
+  - name: cs current status.
+    command: sudo systemctl start falcon-sensor
