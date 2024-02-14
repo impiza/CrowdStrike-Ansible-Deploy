@@ -14,6 +14,8 @@ Please find the files inside /etc/ansible
 ```
 Please find my [CrowdStrike Community]([Community](https://community.crowdstrike.com/members/impiza-1947 "Community") profile  
 Detailed instructions will be update soon
+## Recording
+[![asciicast](https://asciinema.org/a/RHDY2KTi9w93yBMuoogPrYAbp.svg)](https://asciinema.org/a/RHDY2KTi9w93yBMuoogPrYAbp)
 
 This is result of my CrowdStrike Deployment using Ansible playbook.
 ```bash
