@@ -12,7 +12,7 @@ Please find the files inside /etc/ansible
 └── startservice.yml
 
 ```
-Please find my [CrowdStrike Community]([Community](https://community.crowdstrike.com/members/impiza-1947 "Community") profile  
+Please find my [CrowdStrike Community](https://community.crowdstrike.com/members/impiza-1947) profile.
 Detailed instructions will be update soon
 ## Recording
 ![Demo](demo.gif)
