@@ -1,0 +1,7 @@
+---
+# This activate cs
+
+- hosts: nodes
+  tasks:
+  - name: Activate cs.
+    command: sudo /opt/CrowdStrike/falconctl -s --cid=YOURCID
